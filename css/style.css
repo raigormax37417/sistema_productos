@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(76, 203, 242, 0.6);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form {
+  background-color: #ffffff;
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-flow: wrap column;
+  margin-top: 2%;
+  padding: 1.5em;
+  border-radius: 6px;
+}
+.form-title {
+  text-align: center;
+}
+.form-img {
+  width: 30%;
+  height: 30%;
+  margin: auto;
+}
+.form-input {
+  border-radius: 5px;
+  width: 70%;
+  height: 7%;
+  margin: auto;
+  margin-bottom: 0.5em;
+  padding-left: 5px;
+  border: 1px solid #000;
+}
+.login {
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px 5px;
+  min-width: 20%;
+}
+.error {
+  margin-left: 4em;
+  color: #e12121;
+}
